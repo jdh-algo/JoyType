@@ -1,6 +1,6 @@
 # JoyType: A Robust Design for Multilingual Visual Text Creation
 
-<a href='https://jdh-algo.github.io/JoyType'><img src='https://img.shields.io/badge/Page-JoyType-orange'></a> <a href='https://github.com/jdh-algo/JoyType.git'><img src='https://img.shields.io/badge/Code-Github-blue'></a> <a href='http://joytype.jdhealth.com'><img src='https://img.shields.io/badge/Demo-JDHealth-green'></a> <a href='https://huggingface.co/spaces/jdh-algo/JoyType'><img src='https://img.shields.io/badge/Demo-HuggingFace-yellow'></a> 
+<a href='https://jdh-algo.github.io/JoyType'><img src='https://img.shields.io/badge/Page-JoyType-orange'></a> <a href='https://github.com/jdh-algo/JoyType.git'><img src='https://img.shields.io/badge/Code-Github-blue'></a> <a href='https://huggingface.co/spaces/jdh-algo/JoyType'><img src='https://img.shields.io/badge/Demo-HuggingFace-yellow'></a> 
 
 ![examples](files/examples.png)
 
