@@ -42,11 +42,74 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+
+
+   <style>
+#nav-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#project-nav-container {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.home-link {
+  margin-right: 10px;
+}
+
+.house-icon {
+  fill: #333;
+  transition: fill 0.3s ease;
+  width: 24px;
+  height: 24px;
+}
+
+.house-icon:hover {
+  fill: #0366d6;
+}
+.select-wrapper::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+  color: #333;
+}
+.select-wrapper {
+  position: relative;
+  margin-left: 10px;
+}
+     </style>
 </head>
 
 <body>
 
+  <div id="nav-wrapper">
+    <div id="project-nav-container">
+      <a href="https://github.com/jdh-algo" title="GitHub主页" class="home-link">
+        <svg class="house-icon" viewBox="0 0 24 24" width="24" height="24">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+      </a>
+      <div class="select-wrapper">
+        <select id="project-nav" onchange="location = this.value;">
+          <option value="">More Research</option>
+          <option value="https://jdh-algo.github.io/JoyHallo/">JoyHallo</option>
+          <option value="https://jdh-algo.github.io/JoyType/">JoyType</option>
+        </select>
+      </div>
+    </div>
+  </div>
 
+  
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
